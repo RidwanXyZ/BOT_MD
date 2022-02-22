@@ -10,16 +10,18 @@ const chalk = require('chalk')
 // Website Api
 global.APIs = {
 	dappa: 'https://api.dapuhy.ga',
+	bx: 'https://bx-hunter.herokuapp.com/api/'
 }
 
 // Apikey Website Api
 global.APIKeys = {
 	'https://api.dapuhy.ga': 'DappaAnjing',
+	'https://bx-hunter.herokuapp.com/api/' : 'FuckBitch'
 }
 
 // Other
-global.owner = ['6288292024190','62882920241909','62882920241908']
-global.packname = 'Hisoka Morrow'
+global.owner = ['6289514791129']
+global.packname = 'Ridwan bang yg bikin'
 global.author = '\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n'
 global.sessionName = 'hisoka'
 global.prefa = ['','!','.','🐦','🐤','🗿']
