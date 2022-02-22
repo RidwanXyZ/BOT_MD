@@ -83,10 +83,13 @@ module.exports = hisoka = async (hisoka, m, chatUpdate) => {
         }
 
         switch(command) {
+	    /*
 	    case 'sc': {
                 m.reply('Script : https://github.com/DikaArdnt/Hisoka-Morou\n\n Dont Forget Give Star\n\nDonate : https://ko-fi.com/cak_haho\n\n Dont Forget Donate')
             }
             break
+            */
+            
             case 'chat': {
                 if (!isCreator) throw mess.owner
                 if (!q) throw 'Option : 1. mute\n2. unmute\n3. archive\n4. unarchive\n5. read\n6. unread\n7. delete'
@@ -163,6 +166,7 @@ module.exports = hisoka = async (hisoka, m, chatUpdate) => {
             }
             break
             case 'hentai': {
+               
                 m.reply(mess.wait)
                 anu = await hentai()
                 result = anu[Math.floor(Math.random(), anu.length)]
@@ -213,12 +217,12 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'owner': case 'creator': {
                 let vcard = 'BEGIN:VCARD\n' // metadata of the contact card
                     + 'VERSION:3.0\n' 
-                    + 'N:;Dika Ardnt.;;;'
-                    + 'FN:Dika Ardnt.\n' // full name
+                    + 'N:;Ridwan.;;;'
+                    + 'FN:Ridwan.\n' // full name
                     + 'ORG:Owner Bot;\n' // the organization of the contact
-                    + 'TEL;type=CELL;type=VOICE;waid=6288292024190:+62 882-9202-4190\n' // WhatsApp ID + phone number
+                    + 'TEL;type=CELL;type=VOICE;waid=6289514791129:+62 895-1479-1129\n' // WhatsApp ID + phone number
                     + 'END:VCARD'
-                hisoka.sendMessage(m.chat, { contacts: { displayName: 'Dika Ardnt.', contacts: [{ vcard }] } }, { quoted: m })
+                hisoka.sendMessage(m.chat, { contacts: { displayName: 'Ridwan.', contacts: [{ vcard }] } }, { quoted: m })
             }
             break
             case 'eval': {
@@ -271,8 +275,6 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
 
 ┌──⭓ *Random Menu*
 │
-│⭔ ${prefix}porno
-│⭔ ${prefix}hentai
 │⭔ ${prefix}quotesanime
 │
 └───────⭓
